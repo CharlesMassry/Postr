@@ -17,6 +17,8 @@ gem 'monban'
 group :development do
   gem 'spring'
   gem 'monban-generators', '~> 0.0.3'
+  gem 'quiet_assets'
+  gem 'bullet'
 end
 
 group :development, :test do
