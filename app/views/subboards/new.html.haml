@@ -1,0 +1,9 @@
+= form_for @subboard do |form|
+  .title_form
+    = form.label :name
+    = form.text_field :name
+  .description_form
+    = form.label :description
+    = form.text_area :description
+  .subboard_submit
+    = form.submit
